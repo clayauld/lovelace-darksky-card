@@ -10,7 +10,9 @@ The card is very customizable.  You can configure many aspects of it's look and 
 
 Hovering over a forecast day will display the daily weather summary in a tooltip popup if that option has been enabled.
 
-![image](https://user-images.githubusercontent.com/45823145/53432443-83d83700-39c0-11e9-9c93-db6945f24d70.png)
+Light Theme                |  Dark Theme
+:-------------------------:|:-------------------------:
+![image](images/light-theme.jpg)  |  ![image](images/dark-theme.jpg)
 
 **Installation**
 ------------------------------
@@ -131,6 +133,7 @@ entity_wind_speed: sensor.dark_sky_wind_speed
 entity_humidity: sensor.dark_sky_humidity
 entity_pressure: sensor.dark_sky_pressure
 entity_apparent_temp: sensor.dark_sky_apparent_temperature
+entity_summary_today: sensor.dark_sky_summary_0d
 entity_daily_summary: sensor.dark_sky_daily_summary
 entity_pop: sensor.dark_sky_precip_probability
 entity_pop_intensity: sensor.dark_sky_precip_intensity

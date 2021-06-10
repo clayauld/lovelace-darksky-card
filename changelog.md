@@ -1,3 +1,6 @@
+# 0.10.3
+  - Replace LitElement with Lit to correspond to HA 2021.6.2 update. See https://developers.home-assistant.io/blog/2021/05/19/lit-2.0/
+
 # 0.10.2
   - updated LitElement source object to "home-assistant-main" as "hui-error-entity-row" is being removed in HA 0.88 update.
   
