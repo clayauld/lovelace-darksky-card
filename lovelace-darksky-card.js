@@ -25,10 +25,10 @@ console.info(
     var icons = this.config.static_icons ? "static" : "animated";
     var currentText = this.config.entity_current_text ? html`<span class="currentText" id="current-text">${this._hass.states[this.config.entity_current_text].state}</span>` : ``;
     var apparentTemp = this.config.entity_apparent_temp ? html`<span class="apparent">${this.localeText.feelsLike} <span id="apparent-text">${this.current.apparent}</span> ${this.getUOM("temperature")}</span>` : ``;
-      var summaryToday = this.config.entity_summary_today? html`<br><span class="today" id="summary-today-text"> ${this._hass.states[this.config.entity_summary_today].state}<br> ` : ``;
-      var summary = this.config.entity_daily_summary ? html`<br><span class="summary" id="daily-summary-text">${this._hass.states[this.config.entity_daily_summary].state}</span></br>` : ``;
+    var summaryToday = this.config.entity_summary_today? html`<br><span class="today" id="summary-today-text"> ${this._hass.states[this.config.entity_summary_today].state}<br> ` : ``;
+    var summary = this.config.entity_daily_summary ? html`<br><span class="summary" id="daily-summary-text">${this._hass.states[this.config.entity_daily_summary].state}</span></br>` : ``;
     var separator = this.config.show_separator ? html`<hr class=line>` : ``;
-      var today = this.config.entity_today ? html`<span class="today" id="today-text">${this._hass.states[this.config.entity_today].state}</span>` : ``;
+    var today = this.config.entity_today ? html`<span class="today" id="today-text">${this._hass.states[this.config.entity_today].state}</span>` : ``;
     
     
 // Build HTML    
