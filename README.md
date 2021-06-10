@@ -6,7 +6,7 @@ The Dark Sky Weather Card provides current and forecasted weather conditions usi
 
 Credit for the work goes to https://github.com/iammexx for his work in getting the card up and running. I merely made it compatible with HACS (https://hacs.xyz/). Add it to HACS by adding this repository in the Custom Repository menu and select "plugin" as the category.
 
-The card is very customizable.  You can configure many aspects of it's look and feel as well as which specific content to show by passing in customization flags and defining optional sensors.  Content can also be rearranged if desired. 
+The card is very customizable.  You can configure many aspects of its look and feel, as well as which specific content to show by passing in customization flags and defining optional sensors.  Content can also be rearranged if desired.
 
 Hovering over a forecast day will display the daily weather summary in a tooltip popup if that option has been enabled.
 
