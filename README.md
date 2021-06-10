@@ -12,7 +12,7 @@ Hovering over a forecast day will display the daily weather summary in a tooltip
 
 Light Theme                |  Dark Theme
 :-------------------------:|:-------------------------:
-![image](images/light-theme.jpg)  |  ![image](images/dark-theme.jpg)
+![image](https://raw.githubusercontent.com/clayauld/lovelace-darksky-card/master/images/light-theme.jpg)  |  ![image](https://raw.githubusercontent.com/clayauld/lovelace-darksky-card/master/images/dark-theme.jpg)
 
 **Installation**
 ------------------------------
